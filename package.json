@@ -4,7 +4,8 @@
   "description": "",
   "main": "main.js",
   "scripts": {
-    "start": "electron main.js"
+    "start": "electron main.js",
+    "build": "browserify components/app.js -o components/build.js"
   },
   "repository": {
     "type": "git",
@@ -17,8 +18,11 @@
   },
   "homepage": "https://github.com/NicolasThebaud/Wallet#readme",
   "dependencies": {
+    "browserify": "^13.0.1",
     "jquery": "^3.0.0",
-    "materialize-css": "^0.97.6"
+    "materialize-css": "^0.97.6",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0"
   },
   "devDependencies": {
     "electron-prebuilt": "^1.2.2"

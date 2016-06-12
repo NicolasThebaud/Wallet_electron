@@ -1,0 +1,7 @@
+{
+	"lines": [
+		{"title": "Whatever","desc": "some description","balance": -40,"date": "04/16"}, 
+		{"title": "Whatever","desc": "some description","balance": -30,"date": "04/16"}, 
+		{"title": "Whatever","desc": "","balance": 12.50,"date": "04/16"}
+	]
+}

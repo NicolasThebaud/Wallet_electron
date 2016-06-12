@@ -1,2 +1,4 @@
 main { height: 100vh; width: 100vw; overflow: hidden; }
 .full-height { height: 100vh; }
+.bold { font-weight: 900; }
+.icon-baseline { vertical-align: top; }
