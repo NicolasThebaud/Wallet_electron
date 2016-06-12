@@ -1,0 +1,26 @@
+{
+  "name": "wallet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NicolasThebaud/Wallet.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NicolasThebaud/Wallet/issues"
+  },
+  "homepage": "https://github.com/NicolasThebaud/Wallet#readme",
+  "dependencies": {
+    "jquery": "^3.0.0",
+    "materialize-css": "^0.97.6"
+  },
+  "devDependencies": {
+    "electron-prebuilt": "^1.2.2"
+  }
+}
